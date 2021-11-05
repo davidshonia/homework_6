@@ -22,10 +22,11 @@ function getOwnList(){
   setTimeout(function(){
       console.log('We Got: \n'+ourJetDB);
   }, 3000)
-}
+}  
 
 
 buyNewJet(jetMarket(0), getOwnList);
+buyNewJet(jetMarket(1), getOwnList);
 jetMarket();
 
 
